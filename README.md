@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:04.04.2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,131 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+<head>
+    <title>CSE</title>
+    <style>
+        .bookpage{
 
+            width: 400px;
+            height: 600px;
+            color:black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: ' Arial, sans-serif';
+            background-image: url(back.jpg);
+            background-size: cover;
+        }
+            
+        
+        .insight{
+            color:azure;
+        
+        }
+        
+        
+        .hrstyle{
+            width:100px;
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color:rgb(255, 255, 255);
+            top:190px;
+            
+            font-family:Georgia;
+            font-size: medium;
+        }
+        .booktitle{
+            color:azure;
+            font-family: Roquen;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:180px;
+            
+        }
+        .pub{
+            color:azure;
+            font-size: medium;
+            position: relative;
+            top:155px;
+            left:330px;
+        }
+        .ed{
+            color:azure;
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:85px;
+        
+        }
+        .subtitle{
+            color:azure;
+            font-family:unicorn;
+            font-size: large;
+            position: relative;
+            top:40px;
+        }
+        .mypic{
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 90px;
+            height: 80px;
+            background-size:contain;
+        }
+        </style>
+        <title>Book Cover Page</title>
+        </head>
+        <body>
+        <div class="bookpage">
+            <div class="insight">
+            
+            </div>
+            <div class="hrstyle">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="booktitle">
+                <h1>Communicating with Data</h1></div>
+            <div class="subtitle">
+                 books for beginners
+            </div>
+            <div class="subtitle">
+                 Top seller of 2023
+            </div>
+
+            <div class="mypic">
+                <img src="img.jpg" width="120" height="100" >
+            </div>
+            <div class="id">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="author">
+               <p><b>SUSITHRA.B(212223220113)</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>SPECIAL EDITION(LIMITED STOCK)</b>
+            </div>
+        </div>
+        </body>
+</html>
+```
 
 ## OUTPUT:
-
+![alt text](<susi/Screenshot 2024-04-04 155624.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
